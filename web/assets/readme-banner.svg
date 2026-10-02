@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="94" y1="13" x2="1301" y2="434" gradientUnits="userSpaceOnUse"><stop stop-color="#111820"/><stop offset="1" stop-color="#202a31"/></linearGradient>
+    <linearGradient id="glow" x1="769" y1="82" x2="1302" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#b8ff5b" stop-opacity=".28"/><stop offset="1" stop-color="#b8ff5b" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#b9c9bf" stroke-opacity=".075"/></pattern>
+  </defs>
+  <rect width="1400" height="440" rx="28" fill="url(#bg)"/><rect width="1400" height="440" rx="28" fill="url(#grid)"/><circle cx="1087" cy="233" r="285" fill="url(#glow)"/><path d="M0 386H1400" stroke="#b8ff5b" stroke-opacity=".45"/>
+  <rect x="76" y="69" width="13" height="13" rx="6.5" fill="#b8ff5b"/>
+  <text x="108" y="82" fill="#c8d3cb" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3.2">SOFTWARE DEVELOPER · .NET · BUSINESS SOFTWARE</text>
+  <text x="74" y="202" fill="#f0f3ef" font-family="Segoe UI,Arial,sans-serif" font-size="86" font-weight="750" letter-spacing="-4">DaniDev</text>
+  <text x="78" y="255" fill="#b8ff5b" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="650">Del proceso real a software que funciona.</text>
+  <text x="78" y="305" fill="#c3cdc6" font-family="Segoe UI,Arial,sans-serif" font-size="19">C# / .NET · APIs · SQL Server · Azure · ERP · Aplicaciones B2B</text>
+  <g transform="translate(930 113)"><rect width="354" height="213" rx="18" fill="#11171d" stroke="#b8ff5b" stroke-opacity=".48"/><text x="26" y="39" fill="#91a096" font-family="Consolas,monospace" font-size="13" letter-spacing="1.3">DEL PROBLEMA A PRODUCCIÓN</text><path d="M49 74V168" stroke="#56655b" stroke-width="2"/><circle cx="49" cy="79" r="7" fill="#b8ff5b"/><circle cx="49" cy="112" r="7" fill="#b8ff5b"/><circle cx="49" cy="145" r="7" fill="#b8ff5b"/><circle cx="49" cy="178" r="7" fill="#b8ff5b"/><text x="75" y="85" fill="#f0f3ef" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Entender el dominio</text><text x="75" y="118" fill="#f0f3ef" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Diseñar el cambio</text><text x="75" y="151" fill="#f0f3ef" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Implementar e integrar</text><text x="75" y="184" fill="#f0f3ef" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Validar y entregar</text></g>
+  <text x="78" y="355" fill="#87968c" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1.7">PRODUCTO · INTEGRACIÓN · FIABILIDAD · AUTOMATIZACIÓN</text>
+</svg>
