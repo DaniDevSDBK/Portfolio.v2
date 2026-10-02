@@ -1,559 +1,282 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Portfolio de Dani, Software Developer especializado en aplicaciones empresariales, .NET y SQL Server.">
-
-    <title>Dani | Software Developer</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DaniDev es Software Developer en C#/.NET, APIs, SQL Server y Azure. Experiencia en ERP en producción, aplicaciones B2B, integraciones, soporte y automatización.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#10151b">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="DaniDev | Software Developer .NET · APIs · ERP">
+  <meta property="og:description" content="C#/.NET, APIs, SQL Server, Azure, producto ERP y aplicaciones B2B. Desarrollo end-to-end, soporte, integraciones y automatización de ingeniería.">
+  <meta name="twitter:card" content="summary">
+  <title>DaniDev | Software Developer .NET, APIs y ERP</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "DaniDev",
+    "jobTitle": "Software Developer",
+    "email": "danidevsdbk@gmail.com",
+    "description": "Desarrollador de software con autonomía operativa y experiencia en C#, .NET, APIs, Azure, producto ERP, aplicaciones B2B, SQL Server y automatización de ingeniería.",
+    "knowsAbout": ["C#", "VB.NET", ".NET", "APIs", "Azure", "SQL Server", "WinForms", "WPF", ".NET MAUI", "MVVM", "RSA", "ERP", "Aplicaciones B2B", "Integración de sistemas", "Soporte de producción", "Revisión de código", "Concurrencia", "Persistencia"],
+    "sameAs": ["https://github.com/DaniDevSDBK"]
+  }
+  </script>
 </head>
-
 <body>
-
-    <header class="header">
-
-        <nav class="nav container">
-
-            <a href="#" class="logo">Dani<span>.</span></a>
-
-            <div class="nav-links">
-                <a href="#about">Sobre mí</a>
-                <a href="#experience">Experiencia</a>
-                <a href="#projects">Proyectos</a>
-                <a href="#contact">Contacto</a>
-            </div>
-
-            <a href="https://github.com/DaniDevSDBK"
-               target="_blank"
-               class="github-link">
-                GitHub ↗
-            </a>
-
-        </nav>
-
-    </header>
-
-
-    <main>
-
-        <!-- HERO -->
-
-        <section class="hero">
-
-            <div class="container hero-content">
-
-                <div class="hero-text">
-
-                    <span class="eyebrow">
-                        SOFTWARE DEVELOPER
-                    </span>
-
-                    <h1>
-                        Desarrollo software
-                        <span>para problemas reales.</span>
-                    </h1>
-
-                    <p class="hero-description">
-                        Desarrollador con más de 3 años de experiencia trabajando
-                        con aplicaciones empresariales, sistemas ERP y bases de datos
-                        SQL Server.
-                    </p>
-
-                    <div class="hero-actions">
-
-                        <a href="#projects" class="button primary">
-                            Ver proyectos
-                        </a>
-
-                        <a href="#contact" class="button secondary">
-                            Contactar
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <div class="hero-card">
-
-                    <div class="terminal-header">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-
-                    <div class="terminal-body">
-
-                        <p>
-                            <span class="code-purple">developer</span>
-                            = <span class="code-green">"Dani"</span>
-                        </p>
-
-                        <p>
-                            <span class="code-purple">experience</span>
-                            = <span class="code-orange">3+</span>
-                        </p>
-
-                        <p>
-                            <span class="code-purple">focus</span>
-                            =
-                            <span class="code-green">
-                                "Enterprise Software"
-                            </span>
-                        </p>
-
-                        <p>
-                            <span class="code-purple">stack</span>
-                            =
-                            [
-                            <span class="code-green">"C#"</span>,
-                            <span class="code-green">"VB.NET"</span>,
-                            <span class="code-green">"SQL"</span>
-                            ]
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ABOUT -->
-
-        <section id="about" class="section">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span>01</span>
-
-                    <h2>Sobre mí</h2>
-
-                </div>
-
-                <div class="about-grid">
-
-                    <div>
-
-                        <p class="large-text">
-                            Mi experiencia profesional se ha desarrollado
-                            principalmente en el entorno del software empresarial.
-                        </p>
-
-                    </div>
-
-                    <div>
-
-                        <p>
-                            He trabajado en el desarrollo y mantenimiento de
-                            aplicaciones ERP, participando tanto en nuevas
-                            funcionalidades como en la evolución de sistemas
-                            existentes.
-                        </p>
-
-                        <p>
-                            Esto me ha permitido trabajar con código legacy,
-                            bases de datos, integraciones, aplicaciones de
-                            escritorio y necesidades de negocio que requieren
-                            soluciones prácticas y fiables.
-                        </p>
-
-                        <p>
-                            Me interesa especialmente entender cómo funciona
-                            un sistema antes de modificarlo y construir soluciones
-                            que puedan mantenerse y evolucionar con el tiempo.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- EXPERIENCE -->
-
-        <section id="experience" class="section section-alt">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span>02</span>
-
-                    <h2>Experiencia</h2>
-
-                </div>
-
-
-                <div class="experience-item">
-
-                    <div class="experience-date">
-                        +3 años
-                    </div>
-
-                    <div class="experience-content">
-
-                        <h3>Software Developer</h3>
-
-                        <p class="company">
-                            Desarrollo de software empresarial
-                        </p>
-
-                        <p>
-                            Desarrollo y mantenimiento de un sistema ERP
-                            utilizado en entornos empresariales reales.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Desarrollo de nuevas funcionalidades en
-                                aplicaciones de escritorio.
-                            </li>
-
-                            <li>
-                                Trabajo con C#, Visual Basic y SQL Server.
-                            </li>
-
-                            <li>
-                                Modificación y optimización de consultas,
-                                procedimientos y estructuras de base de datos.
-                            </li>
-
-                            <li>
-                                Mantenimiento y evolución de código legacy.
-                            </li>
-
-                            <li>
-                                Integración con sistemas y aplicaciones externas.
-                            </li>
-
-                            <li>
-                                Participación en revisión de código,
-                                cherry-picks y mantenimiento de ramas Git.
-                            </li>
-
-                            <li>
-                                Soporte técnico y análisis de incidencias
-                                relacionadas con el software.
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-                <div class="experience-item">
-
-                    <div class="experience-date">
-                        Anterior
-                    </div>
-
-                    <div class="experience-content">
-
-                        <h3>Soporte técnico / desarrollo</h3>
-
-                        <p>
-                            Experiencia trabajando directamente con usuarios
-                            y analizando problemas funcionales y técnicos.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SKILLS -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span>03</span>
-
-                    <h2>Stack</h2>
-
-                </div>
-
-                <div class="skills-grid">
-
-                    <div class="skill-card">
-
-                        <h3>Backend</h3>
-
-                        <div class="tags">
-                            <span>C#</span>
-                            <span>VB.NET</span>
-                            <span>.NET</span>
-                            <span>Entity Framework</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <h3>Data</h3>
-
-                        <div class="tags">
-                            <span>SQL Server</span>
-                            <span>T-SQL</span>
-                            <span>Stored Procedures</span>
-                            <span>Oracle</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <h3>Desktop</h3>
-
-                        <div class="tags">
-                            <span>WinForms</span>
-                            <span>WPF</span>
-                            <span>MAUI</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <h3>Tools</h3>
-
-                        <div class="tags">
-                            <span>Git</span>
-                            <span>Visual Studio</span>
-                            <span>SQL Server Management Studio</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROJECTS -->
-
-        <section id="projects" class="section section-alt">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span>04</span>
-
-                    <h2>Proyectos</h2>
-
-                </div>
-
-                <p class="section-intro">
-                    Proyectos personales utilizados para experimentar con
-                    arquitectura, desarrollo de aplicaciones y diferentes
-                    tecnologías del ecosistema .NET.
-                </p>
-
-
-                <div class="projects-grid">
-
-
-                    <article class="project-card">
-
-                        <div class="project-top">
-
-                            <span class="project-number">
-                                01
-                            </span>
-
-                            <a href="https://github.com/DaniDevSDBK/ProjectDI_WPF"
-                               target="_blank">
-                                ↗
-                            </a>
-
-                        </div>
-
-                        <h3>ProjectDI_WPF</h3>
-
-                        <p>
-                            Aplicación de escritorio desarrollada con WPF
-                            para gestionar una biblioteca de videojuegos
-                            y trabajar con recomendaciones basadas en
-                            preferencias.
-                        </p>
-
-                        <div class="tags">
-                            <span>C#</span>
-                            <span>WPF</span>
-                            <span>.NET</span>
-                        </div>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <div class="project-top">
-
-                            <span class="project-number">
-                                02
-                            </span>
-
-                            <a href="https://github.com/DaniDevSDBK/PManager"
-                               target="_blank">
-                                ↗
-                            </a>
-
-                        </div>
-
-                        <h3>KeyVault</h3>
-
-                        <p>
-                            Aplicación de escritorio orientada a la gestión
-                            de credenciales y datos sensibles.
-                        </p>
-
-                        <div class="tags">
-                            <span>C#</span>
-                            <span>WPF</span>
-                            <span>Desktop</span>
-                        </div>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <div class="project-top">
-
-                            <span class="project-number">
-                                03
-                            </span>
-
-                            <a href="https://github.com/DaniDevSDBK/Statsfy"
-                               target="_blank">
-                                ↗
-                            </a>
-
-                        </div>
-
-                        <h3>Statsfy</h3>
-
-                        <p>
-                            Proyecto experimental desarrollado con .NET MAUI
-                            para trabajar con OAuth 2.0 e integración con
-                            una API externa.
-                        </p>
-
-                        <div class="tags">
-                            <span>.NET MAUI</span>
-                            <span>C#</span>
-                            <span>OAuth 2.0</span>
-                            <span>API</span>
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTACT -->
-
-        <section id="contact" class="section contact-section">
-
-            <div class="container contact-container">
-
-                <span class="eyebrow">
-                    ¿HABLAMOS?
-                </span>
-
-                <h2>
-                    Estoy abierto a nuevas oportunidades.
-                </h2>
-
-                <p>
-                    Si buscas un desarrollador con experiencia en software
-                    empresarial y sistemas .NET, puedes contactar conmigo.
-                </p>
-
-                <a href="mailto:info@tuempresa.com"
-                   class="button primary">
-                    Contactar
-                </a>
-
-                <div class="contact-links">
-
-                    <a href="https://github.com/DaniDevSDBK"
-                       target="_blank">
-                        GitHub ↗
-                    </a>
-
-                    <a href="#"
-                       target="_blank">
-                        LinkedIn ↗
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <div class="container footer-content">
-
-            <span>
-                © 2026 Dani
-            </span>
-
-            <span>
-                Software Developer
-            </span>
-
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="DaniDev, inicio">DaniDev<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#casos">Casos</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a class="nav-cta" href="https://github.com/DaniDevSDBK" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ¿QUÉ NECESITA RESOLVER TU EQUIPO?</p>
+          <p class="level-label">AUTONOMÍA OPERATIVA · ALCANCE MIDDLE</p>
+          <h1 id="hero-title">¿Necesitas construir software, automatizar procesos, integrar IA o resolver problemas de rendimiento? <span>Hablemos.</span></h1>
+          <p class="hero-lede">Soy DaniDev, Software Developer. Desarrollo, mantengo y doy soporte a productos empresariales: ERP en producción, aplicaciones B2B independientes e integraciones. Trabajo desde el análisis hasta la entrega con C#/.NET, VB.NET, SQL Server, APIs y Azure; también creo automatización de ingeniería y herramientas para medir rendimiento.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#casos">Ver experiencia en producción <span aria-hidden="true">↓</span></a>
+            <a class="button secondary" href="#contacto">Escribir un mensaje <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof" aria-label="Áreas de especialización">
+            <span>C# / .NET</span><span>APIs e integración</span><span>Azure</span><span>Productos ERP y B2B</span><span>IA y automatización</span><span>Medición de rendimiento</span>
+          </div>
         </div>
+        <div class="architecture-card" aria-label="Ciclo de entrega de software">
+          <div class="architecture-top"><span>DEL PROBLEMA A PRODUCCIÓN</span><span class="architecture-dot" aria-hidden="true"></span></div>
+          <div class="flow-line" aria-hidden="true"></div>
+          <ol class="delivery-flow">
+            <li><span class="flow-number">01</span><span><strong>Entender</strong><small>Dominio · reglas · impacto</small></span><span class="flow-mark">↘</span></li>
+            <li><span class="flow-number">02</span><span><strong>Diseñar</strong><small>API · datos · compatibilidad</small></span><span class="flow-mark">↘</span></li>
+            <li><span class="flow-number">03</span><span><strong>Implementar</strong><small>C# · .NET · SQL Server</small></span><span class="flow-mark">↘</span></li>
+            <li><span class="flow-number">04</span><span><strong>Verificar y entregar</strong><small>Pruebas · revisión · release</small></span><span class="flow-mark">✓</span></li>
+          </ol>
+          <div class="architecture-foot"><span>ERP · B2B · INTEGRACIONES</span><span>AUTONOMÍA END-TO-END</span></div>
+        </div>
+      </div>
+    </section>
 
-    </footer>
+    <section class="metrics-band" aria-label="Evidencia de experiencia">
+      <div class="container metrics-grid">
+        <div><strong>ERP</strong><span>desarrollo, soporte y producción</span></div>
+        <div><strong>B2B</strong><span>aplicaciones independientes</span></div>
+        <div><strong>API + datos</strong><span>integraciones y flujos operativos</span></div>
+        <div><strong>End-to-end</strong><span>análisis → implementación → validación</span></div>
+      </div>
+    </section>
 
+    <div class="signal-band" role="group" aria-label="Ámbitos de experiencia">
+      <div class="container signal-inner"><span>Gestión y operaciones</span><i></i><span>Atención y soporte</span><i></i><span>Administración y cumplimiento</span><i></i><span>Producción y logística</span><i></i><span>Integración API</span><i></i><span>Automatización técnica</span></div>
+    </div>
 
-    <script src="script.js"></script>
+    <section class="section-wrap section-light" id="perfil" aria-labelledby="perfil-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">01 / PERFIL</p><h2 id="perfil-title">Perspectiva de producto para software empresarial.</h2></div>
+          <p class="heading-aside">Autonomía sobre el ciclo completo. Experiencia en sistemas, procesos y configuraciones diversas. Responsabilidad en soporte, revisión, entregas y fiabilidad.</p>
+        </div>
+        <div class="profile-grid">
+          <p class="profile-lede">No me limito a implementar el requisito que llega: averiguo qué necesita el negocio, cómo encaja en el sistema y qué puede romperse después.</p>
+          <div class="profile-copy">
+            <p>Mi trabajo abarca desarrollo y mantenimiento de funcionalidades .NET de principio a fin: análisis, lógica de negocio, persistencia, interfaz, validación y entrega. También atiendo incidencias, doy soporte a usuarios y sigo los problemas hasta resolverlos en el producto.</p>
+            <p>He trabajado con muchas aplicaciones, clientes y configuraciones: gestión comercial y administrativa, operación, atención, producción, logística, cumplimiento e intercambio de datos. La variedad importa porque cada cambio debe adaptarse a las reglas y restricciones reales del entorno.</p>
+          </div>
+        </div>
+        <div class="proof-grid">
+          <article class="proof-card"><span class="proof-mark">01</span><h3>Ownership funcional</h3><p>De la necesidad operativa al cambio validado y listo para release.</p></article>
+          <article class="proof-card"><span class="proof-mark">02</span><h3>Integración real</h3><p>APIs y flujos de datos conectados con sistemas empresariales y procesos operativos.</p></article>
+          <article class="proof-card"><span class="proof-mark">03</span><h3>Calidad de equipo</h3><p>Revisión de PR, criterio técnico compartido, pruebas de integración y CI.</p></article>
+          <article class="proof-card"><span class="proof-mark">04</span><h3>Automatización propia</h3><p>Flujos con agentes de IA para planificación, implementación, pruebas y tareas de ingeniería repetibles.</p></article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section-wrap" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">02 / EXPERIENCIA</p><h2 id="experiencia-title">Más alcance, más criterio, más responsabilidad.</h2></div>
+          <p class="heading-aside">Experiencia profesional desde 2023 entre ERP en producción, aplicaciones B2B independientes, soporte e integración de sistemas.</p>
+        </div>
+        <div class="experience-layout">
+          <div class="experience-rail"><span class="rail-line" aria-hidden="true"></span><div class="rail-node"><span>2023</span><i></i><p>Producto en producción, soporte a usuarios e investigación de incidencias.</p></div><div class="rail-node"><span>2024–25</span><i></i><p>Más autonomía en funcionalidades, integraciones y aplicaciones B2B independientes.</p></div><div class="rail-node"><span>2026</span><i></i><p>Revisión de código, coordinación de releases y automatización técnica.</p></div></div>
+          <article class="experience-card">
+            <div class="experience-meta"><span class="experience-period">DESDE 2023</span><span class="experience-label">ERP · APLICACIONES B2B · SOPORTE</span></div>
+            <div class="experience-content">
+              <h3>Software Developer</h3>
+              <p class="experience-lede">Desarrollo, mantenimiento y soporte de productos de software empresarial con autonomía de ejecución y alcance transversal.</p>
+              <ul class="check-list">
+                <li>Desarrollo y mantengo funcionalidades en C#/.NET y VB.NET, recorriendo reglas de negocio, API, persistencia, interfaz, validación y release.</li>
+                <li>Trabajo sobre un ERP amplio en producción y también sobre aplicaciones B2B independientes, integraciones y utilidades de negocio.</li>
+                <li>He integrado sistemas y equipos externos mediante ficheros: lectura y procesamiento de resultados, persistencia y presentación para los usuarios y otros sistemas.</li>
+                <li>Resuelvo incidencias y presto soporte técnico a clientes y usuarios; sigo los problemas desde el primer síntoma hasta una solución sostenible del producto.</li>
+                <li>Construí un importador genérico de Excel como aplicación separada del ERP, con plantillas para mapear datos y respetar el esquema y las restricciones de base de datos.</li>
+                <li>He contribuido en muchas áreas funcionales y configuraciones de cliente, sin limitarme a un módulo o flujo de negocio.</li>
+                <li>Extiendo APIs e integraciones; reviso PRs y cambios de release y documento criterios técnicos para detectar riesgos antes de producción.</li>
+                <li>He corregido problemas de concurrencia y condiciones de carrera, e integrado borrado lógico teniendo en cuenta sus efectos en consultas y flujos existentes.</li>
+                <li>También he reforzado seguridad y resiliencia en sistemas existentes.</li>
+                <li>Construyo CI, automatización de ingeniería y flujos de agentes de IA para planificación, implementación y pruebas.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-light" id="casos" aria-labelledby="casos-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">03 / TRABAJO EN PRODUCCIÓN</p><h2 id="casos-title">Problemas de negocio. Decisiones técnicas. Cambios que llegan a usuarios.</h2></div>
+          <p class="heading-aside">Casos resumidos y anonimizados. El detalle refleja el trabajo documentado; se omiten clientes, IDs y componentes propietarios.</p>
+        </div>
+        <div class="case-list">
+          <article class="case-study">
+            <div class="case-number">CASE<br>01</div>
+            <div class="case-main">
+              <p class="case-type">SOFTWARE DE NEGOCIO · CUMPLIMIENTO</p>
+              <h3>Adaptar un ERP a cambios regulatorios sin perder coherencia contable</h3>
+              <div class="case-content-grid">
+                <div><h4>Contexto</h4><p>La nueva normativa fiscal afecta a más que la salida de una factura: requiere trazabilidad, estados válidos, rectificativas y datos coherentes a través del ciclo de vida del documento.</p></div>
+                <div><h4>Mi contribución</h4><p>Desarrollé y mantuve cambios en diferentes flujos sujetos a normativa, tratamiento de rectificaciones, validaciones, registro y consistencia de la información.</p></div>
+                <div><h4>Criterio técnico</h4><p>Traté el trabajo como flujo funcional y de datos: cada cambio debía encajar con las reglas existentes y preservar consistencia entre detalle, totales y estados.</p></div>
+                <div><h4>Resultado</h4><p>Funcionalidades regulatorias incorporadas a releases del producto, con trabajo de corrección y evolución registrado a lo largo de varias entregas.</p></div>
+              </div>
+              <div class="tags"><span>.NET</span><span>C# / VB.NET</span><span>SQL Server</span><span>Validación de datos</span><span>Reglas de negocio</span></div>
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-number">CASE<br>02</div>
+            <div class="case-main">
+              <p class="case-type">API · DATOS · INTEGRACIÓN DE SISTEMAS</p>
+              <h3>Conectar procesos externos con el trabajo diario del ERP</h3>
+              <div class="case-content-grid">
+                <div><h4>Contexto</h4><p>Un proceso de negocio conectaba API, datos operativos y pantallas del ERP, y necesitaba evolucionar sin romper la manera en que los usuarios ya trabajaban.</p></div>
+                <div><h4>Mi contribución</h4><p>Trabajé en servicios API, generación y evolución de datos, controles de recursos y formularios, integrando las piezas en el flujo existente.</p></div>
+                <div><h4>Criterio técnico</h4><p>El cambio cruza capas: contrato de integración, persistencia, compatibilidad de formularios y operación diaria deben seguir alineados.</p></div>
+                <div><h4>Resultado</h4><p>La nueva funcionalidad quedó conectada con las herramientas y el flujo operativo del producto, y siguió evolucionando en entregas posteriores.</p></div>
+              </div>
+              <div class="tags"><span>C#</span><span>.NET API</span><span>SQL Server</span><span>Integración</span></div>
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-number">CASE<br>03</div>
+            <div class="case-main">
+              <p class="case-type">APLICACIÓN B2B INDEPENDIENTE · IMPORTACIÓN DE DATOS</p>
+              <h3>Un importador genérico de Excel guiado por plantillas y reglas de base de datos</h3>
+              <div class="case-content-grid">
+                <div><h4>Contexto</h4><p>Los datos de negocio llegaban en hojas Excel, pero debían ajustarse al esquema y las restricciones de la base de datos de destino.</p></div>
+                <div><h4>Mi contribución</h4><p>Construí una aplicación B2B independiente del ERP con un importador genérico: las plantillas mapean la información del Excel a la base de datos correspondiente y sus restricciones.</p></div>
+                <div><h4>Criterio técnico</h4><p>Separé la herramienta del ERP y usé plantillas para configurar los mapeos, manteniendo las restricciones del destino como parte del proceso de importación.</p></div>
+                <div><h4>Resultado</h4><p>Una aplicación aparte del ERP que permite reutilizar el flujo de importación mediante plantillas, en lugar de acoplarlo a un módulo concreto.</p></div>
+              </div>
+              <div class="tags"><span>Aplicación B2B</span><span>Excel</span><span>Plantillas</span><span>Mapeo de datos</span><span>Restricciones de base de datos</span></div>
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-number">CASE<br>04</div>
+            <div class="case-main">
+              <p class="case-type">FIABILIDAD · SEGURIDAD · CALIDAD DE EQUIPO</p>
+              <h3>Resolver fallos de concurrencia y hacer más seguro el cambio siguiente</h3>
+              <div class="case-content-grid">
+                <div><h4>Contexto</h4><p>En un producto en evolución, algunos fallos aparecen por interacciones entre hilos y por el estado compartido. Cambios transversales de persistencia, como el borrado lógico, también afectan consultas y flujos existentes.</p></div>
+                <div><h4>Mi contribución</h4><p>Corregí problemas de concurrencia y condiciones de carrera e integré borrado lógico adaptando consultas y flujos que debían respetar el estado del registro. También corregí consultas vulnerables a inyección SQL, protegí credenciales y aislé fallos de escritura que podían cerrar la aplicación.</p></div>
+                <div><h4>Criterio técnico</h4><p>En revisión de PR identifiqué un patrón de acceso a datos que podía fallar al introducir transacciones. Convertí el razonamiento en un criterio de revisión reutilizable por el equipo y tuve en cuenta el impacto de los cambios de persistencia en consumidores existentes.</p></div>
+                <div><h4>Resultado</h4><p>Menos exposición en datos sensibles y errores; un estándar preventivo de revisión; y CI nocturna para una suite de pruebas de integración.</p></div>
+              </div>
+              <div class="tags"><span>Concurrencia</span><span>Condiciones de carrera</span><span>Soft delete</span><span>Persistencia</span><span>SQL Server</span><span>Seguridad</span><span>Code review</span><span>CI</span><span>Pruebas de integración</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="ai-feature">
+          <div><p class="case-type">AI-ASSISTED ENGINEERING</p><h3>IA aplicada a trabajo real de ingeniería</h3></div>
+          <p>Diseñé por iniciativa propia y uso en trabajo real un flujo de agentes de IA especializado en software ERP. Apoya análisis y planificación técnica, implementación, revisión y diseño de pruebas. También he creado herramientas para automatizar tareas de ingeniería y medir el rendimiento de componentes. Mantengo privada la arquitectura y los detalles internos; la experiencia, las funciones generales y el uso real están documentados.</p>
+          <div class="ai-tags"><span>Agentes especializados</span><span>Planificación técnica</span><span>Implementación y revisión</span><span>Diseño de pruebas</span><span>Automatización</span><span>Medición de rendimiento</span></div>
+        </div>
+        <div class="case-cta"><p>¿Buscas autonomía técnica para evolucionar un producto complejo?</p><a class="button secondary" href="#contacto">Hablemos <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="section-wrap" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">04 / STACK Y DOMINIOS</p><h2 id="stack-title">Una base sólida en .NET, APIs y software de negocio.</h2></div>
+          <p class="heading-aside">Tecnologías documentadas en el portfolio y los proyectos. Sin rellenar el stack con herramientas genéricas.</p>
+        </div>
+        <div class="stack-layout">
+          <div class="stack-groups">
+            <div class="stack-group"><span class="stack-index">01</span><div><h3>Aplicación y servicios</h3><p>C# · VB.NET · .NET · WinForms · WPF · .NET MAUI · APIs</p></div></div>
+            <div class="stack-group"><span class="stack-index">02</span><div><h3>Persistencia e integración</h3><p>SQL Server · T-SQL · procedimientos almacenados · OAuth 2.0 · integración de servicios</p></div></div>
+            <div class="stack-group"><span class="stack-index">03</span><div><h3>Cloud, calidad y entrega</h3><p>Azure · Git · code review · cherry-picks · pruebas de integración · CI · automatización con agentes</p></div></div>
+          </div>
+          <div class="domain-panel"><p class="case-type">ENTORNOS DE NEGOCIO</p><h3>Aprendo el flujo y sus reglas; después diseño el cambio.</h3><div class="domain-cloud"><span>Gestión y administración</span><span>Operaciones comerciales</span><span>Atención y soporte</span><span>Producción y logística</span><span>Procesos especializados</span><span>Integración de datos</span><span>Cumplimiento y trazabilidad</span><span>Control de versiones</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-light" id="proyectos" aria-labelledby="proyectos-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">05 / PROYECTOS PERSONALES</p><h2 id="proyectos-title">También construyo fuera del ERP.</h2></div>
+          <a class="text-link" href="https://github.com/DaniDevSDBK" target="_blank" rel="noopener noreferrer">Ver perfil de GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-grid">
+          <a class="project-card" href="https://github.com/DaniDevSDBK/ProjectDI_WPF" target="_blank" rel="noopener noreferrer">
+            <img class="project-image" src="assets/projectdi.png" alt="Captura de la biblioteca y pantalla principal de ProjectDI_WPF" loading="lazy" decoding="async">
+            <div class="project-top"><span class="project-index">01 / DESKTOP</span><span class="project-open">Abrir repositorio <span aria-hidden="true">↗</span></span></div>
+            <h3>ProjectDI_WPF</h3><p>Aplicación de escritorio en C# y WPF para organizar una biblioteca de videojuegos y explorar recomendaciones según preferencias.</p><div class="tags"><span>C#</span><span>WPF</span><span>.NET</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/DaniDevSDBK/PManager" target="_blank" rel="noopener noreferrer">
+            <img class="project-image" src="assets/pmanager.png" alt="Captura de la pantalla principal de PManager" loading="lazy" decoding="async">
+            <div class="project-top"><span class="project-index">02 / DESKTOP · SEGURIDAD</span><span class="project-open">Abrir repositorio <span aria-hidden="true">↗</span></span></div>
+            <h3>PManager</h3><p>Aplicación de escritorio WPF con estructura MVVM para gestionar credenciales. Incluye generador de contraseñas y almacenamiento con cifrado RSA; el sistema de roles figura como incompleto en el repositorio.</p><div class="tags"><span>WPF</span><span>MVVM</span><span>RSA</span><span>Gestión de credenciales</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/DaniDevSDBK/Statsfy" target="_blank" rel="noopener noreferrer">
+            <img class="project-image" src="assets/statsfy.png" alt="Captura de la biblioteca musical de Statsfy" loading="lazy" decoding="async">
+            <div class="project-top"><span class="project-index">03 / API & OAUTH</span><span class="project-open">Abrir repositorio <span aria-hidden="true">↗</span></span></div>
+            <h3>Statsfy</h3><p>Proyecto experimental en .NET MAUI que trabaja autenticación OAuth 2.0 e integración con una API externa.</p><div class="tags"><span>C#</span><span>.NET MAUI</span><span>OAuth 2.0</span><span>API</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-inner">
+          <p class="eyebrow">06 / SIGUIENTE PASO</p>
+          <h2 id="contact-title">¿Tienes un producto que construir, mejorar o poner en forma?</h2>
+          <p>Cuéntame qué necesitas. Hablemos de desarrollo .NET, APIs, Azure, soporte de producto o automatización.</p>
+          <a class="contact-email" href="mailto:danidevsdbk@gmail.com">danidevsdbk@gmail.com <span aria-hidden="true">↗</span></a>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="contact-fields">
+            <label>Nombre<input name="name" type="text" autocomplete="name" required></label>
+            <label>Tu email<input name="email" type="email" autocomplete="email" required></label>
+          </div>
+          <label>Mensaje<textarea name="message" rows="5" required></textarea></label>
+          <button class="button primary" type="submit">Preparar correo <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="contact-note">Se abrirá tu aplicación de correo con el mensaje preparado para danidevsdbk@gmail.com; revísalo y envíalo desde allí.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="#inicio">DaniDev<span>.</span></a><p>Software Developer · .NET · APIs · ERP</p><a href="portfolio.md">Perfil en Markdown ↗</a><a href="#main">Volver arriba ↑</a></div><div class="footer-meta-band"><p class="container footer-meta">© 2026 DaniDev. Todos los derechos reservados.</p></div></footer>
+  <script src="script.js" defer></script>
 </body>
-
 </html>

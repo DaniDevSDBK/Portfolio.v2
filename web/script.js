@@ -1,52 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const contactForm = document.querySelector("#contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!contactForm.reportValidity()) return;
 
-    const navLinks = document.querySelectorAll(".nav-links a");
-
-    navLinks.forEach(link => {
-
-        link.addEventListener("click", () => {
-
-            navLinks.forEach(item => {
-                item.classList.remove("active");
-            });
-
-            link.classList.add("active");
-        });
-
+      const formData = new FormData(contactForm);
+      const name = String(formData.get("name") || "").trim();
+      const email = String(formData.get("email") || "").trim();
+      const message = String(formData.get("message") || "").trim();
+      const subject = encodeURIComponent("Contacto desde el portfolio de DaniDev");
+      const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\n${message}`);
+      window.location.href = `mailto:danidevsdbk@gmail.com?subject=${subject}&body=${body}`;
     });
+  }
 
+  const links = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+  const sections = links
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
 
-    const observer = new IntersectionObserver(
-        entries => {
+  if (!("IntersectionObserver" in window) || sections.length === 0) return;
 
-            entries.forEach(entry => {
-
-                if (!entry.isIntersecting) {
-                    return;
-                }
-
-                const id = entry.target.id;
-
-                navLinks.forEach(link => {
-
-                    link.classList.toggle(
-                        "active",
-                        link.getAttribute("href") === `#${id}`
-                    );
-
-                });
-
-            });
-
-        },
-        {
-            threshold: 0.4
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      links.forEach((link) => {
+        if (link.getAttribute("href") === `#${entry.target.id}`) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
         }
-    );
+      });
+    });
+  }, { rootMargin: "-20% 0px -65% 0px" });
 
-
-    document
-        .querySelectorAll("section[id]")
-        .forEach(section => observer.observe(section));
-
+  sections.forEach((section) => observer.observe(section));
 });

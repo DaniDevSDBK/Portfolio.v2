@@ -1,0 +1,15 @@
+# DaniDev
+
+> Candidato a posiciones Middle de Software Developer/.NET, con experiencia profesional desde 2023 en C#/.NET, VB.NET, SQL Server, APIs, Azure, software empresarial en producción, aplicaciones B2B, soporte e ingeniería de calidad.
+
+## Perfil y portfolio
+
+- [Perfil profesional para selección](portfolio.md): seniority objetivo, experiencia, tecnologías, competencias verificables y proyectos en formato Markdown estructurado.
+- [Portfolio web](index.html): perfil, experiencia anonimizada, casos, stack y contacto.
+
+## Repositorios
+
+- [ProjectDI_WPF](https://github.com/DaniDevSDBK/ProjectDI_WPF): escritorio, C# y WPF.
+- [PManager](https://github.com/DaniDevSDBK/PManager): gestor de credenciales, WPF/MVVM y RSA.
+- [Statsfy](https://github.com/DaniDevSDBK/Statsfy): .NET MAUI, OAuth 2.0 y API.
+- [GitHub de DaniDev](https://github.com/DaniDevSDBK)
