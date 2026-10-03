@@ -41,6 +41,10 @@ Software Developer targeting Middle-level roles in .NET product development and 
 - Supports customers and users, investigates production issues and follows problems through to a maintainable resolution.
 - Contributes code reviews, integration tests, CI, security improvements and engineering automation.
 
+## Selected product case
+
+- **[Inventar.io](index.html#inventario):** multi-inventory product in real use by customers and users, including the rugby club I belong to. I designed nearly all of the backend architecture and foundation in C#; AI tools primarily supported frontend implementation. I can show a safe demo with synthetic data; application source remains private.
+
 ## Selected personal projects
 
 - **[ProjectDI_WPF](https://github.com/DaniDevSDBK/ProjectDI_WPF):** C#/.NET desktop application using WPF for a video-game library and preference-based recommendations.

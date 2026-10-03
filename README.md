@@ -81,6 +81,10 @@ Me interesa especialmente el software donde el criterio de ingeniería importa e
 
 <sub>Abre cualquier captura o título para ir directamente al repositorio del proyecto.</sub>
 
+## Producto en uso real: Inventar.io
+
+Aplicación de gestión de inventario multiusuario utilizada por clientes reales, incluido el club deportivo de rugby al que pertenezco. La arquitectura y la base del backend en C# son casi en su totalidad trabajo mío; la IA apoyó principalmente la implementación del frontend. [Ver sección del portfolio](web/index.html#inventario). El código de la aplicación permanece privado.
+
 ## Stack
 
 <table>

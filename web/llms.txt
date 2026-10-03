@@ -6,6 +6,7 @@
 
 - [Perfil profesional para selección](portfolio.md): seniority objetivo, experiencia, tecnologías, competencias verificables y proyectos en formato Markdown estructurado.
 - [Portfolio web](index.html): perfil, experiencia anonimizada, casos, stack y contacto.
+- [Inventar.io](index.html#inventario): producto propio de inventario multiusuario en uso real; código de la aplicación privado.
 
 ## Repositorios
 
