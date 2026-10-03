@@ -65,7 +65,6 @@ p, h1, h2, h3, h4 { margin-top: 0; }
 .eyebrow { margin-bottom: .9rem; color: var(--mint); font-size: .69rem; font-weight: 800; letter-spacing: .15em; }
 .status-dot { display: inline-block; width: .48rem; height: .48rem; margin-right: .52rem; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 .25rem rgb(209 250 117 / 13%); vertical-align: .04rem; }
 .eyebrow-divider { padding-inline: .3rem; color: #5c7370; }
-.level-label { display: inline-block; margin: .7rem 0 .15rem; padding: .4rem .6rem; border-left: 2px solid var(--lime); background: rgb(209 250 117 / 7%); color: var(--lime); font-size: .69rem; font-weight: 800; letter-spacing: .11em; }
 .hero h1 { max-width: 790px; margin: 1.1rem 0 1.35rem; font-size: clamp(3rem, 6.4vw, 5.65rem); line-height: .99; letter-spacing: -.075em; }
 .hero h1 span { display: block; color: #aebbb8; }
 .hero-lede { max-width: 690px; margin: 0; color: #c3cecb; font-size: clamp(1rem, 1.35vw, 1.18rem); }
@@ -274,7 +273,7 @@ p, h1, h2, h3, h4 { margin-top: 0; }
 .live-product-footer > span { color: #50625a; font-size: .72rem; }
 .ai-workflow { grid-column: 1 / -1; margin-top: .8rem; padding: 1rem; border: 1px solid #a9b7ad; border-radius: .3rem; background: rgb(255 255 255 / 35%); }
 .ai-workflow-label { margin: 0 0 .85rem; color: #526f40; font-size: .63rem; font-weight: 850; letter-spacing: .12em; }
-.ai-flow { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .55rem; margin: 0; padding: 0; list-style: none; counter-reset: ai-step; }
+.ai-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .55rem; margin: 0; padding: 0; list-style: none; counter-reset: ai-step; }
 .ai-flow li { position: relative; display: flex; min-height: 104px; flex-direction: column; align-items: flex-start; justify-content: center; gap: .24rem; padding: .7rem; border: 1px solid #bdc9be; border-radius: .25rem; background: #e2e7e2; }
 .ai-flow li:not(:last-child)::after { position: absolute; top: 50%; right: -.52rem; z-index: 1; width: .5rem; height: 1px; background: #69805d; content: ""; }
 .ai-flow li > span { color: #60734f; font: 750 .62rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; }
