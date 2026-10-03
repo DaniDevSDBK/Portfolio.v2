@@ -39,6 +39,8 @@ Trabajo de extremo a extremo: entender el proceso y sus restricciones, diseñar 
 
 Me interesa especialmente el software donde el criterio de ingeniería importa en el día a día: compatibilidad con flujos existentes, integridad de datos, fiabilidad, seguridad y mantenibilidad. He trabajado en problemas de concurrencia y condiciones de carrera, integración de borrado lógico, revisión de código, pruebas de integración, CI y automatización de ingeniería con IA.
 
+También he preparado una presentación breve para el perfil de GitHub: [README-PERFIL.md](README-PERFIL.md).
+
 <details>
 <summary><strong>Áreas de trabajo</strong></summary>
 <br>
@@ -108,7 +110,7 @@ Abre <a href="http://localhost:8000">http://localhost:8000</a>. También puedes 
 
 ### Publicación
 
-El workflow de GitHub Actions en <code>.github/workflows/pages.yml</code> publica <strong>únicamente web/</strong> en GitHub Pages cuando hay cambios en <code>main</code> (o al ejecutarlo manualmente). La URL pública prevista es <a href="https://danidevsdbk.github.io/Portfolio.v2/">danidevsdbk.github.io/Portfolio.v2</a>; requiere que GitHub Pages esté habilitado para el repositorio.
+El portfolio está publicado en <a href="https://danidevsdbk.github.io/Portfolio.v2/">danidevsdbk.github.io/Portfolio.v2</a>. GitHub Actions publica únicamente <code>web/</code> al actualizar <code>main</code> o al ejecutar el workflow manualmente.
 
 ## Estructura del repositorio
 
