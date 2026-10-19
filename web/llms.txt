@@ -7,7 +7,8 @@
 ## Perfil y portfolio
 
 - [Perfil profesional para selección](portfolio.md): experiencia, tecnologías, integraciones, agentes de IA y proyectos en Markdown estructurado.
-- [Portfolio web](index.html): perfil, experiencia anonimizada, casos de integración, arquitectura de agentes, stack y contacto.
+- [Portfolio web en español](index.html): perfil, experiencia anonimizada, casos de integración, arquitectura de agentes, stack y contacto.
+- [English portfolio](index-en.html): English version of the portfolio, with matching case studies and contact details.
 - [Inventar.io](index.html#inventario): producto propio de inventario multiusuario en uso real; código de la aplicación privado.
 
 ## Repositorios

@@ -98,7 +98,7 @@ Aplicación de gestión de inventario multiusuario utilizada por clientes reales
 
 ## Portfolio web
 
-El sitio estático presenta perfil, experiencia, casos anonimizados, stack, proyectos y contacto. Está construido con HTML, CSS y JavaScript, sin instalación de dependencias.
+El sitio estático presenta perfil, experiencia, casos anonimizados, stack, proyectos y contacto en español e inglés, con un selector de idioma manual. Está construido con HTML, CSS y JavaScript, sin instalación de dependencias.
 
 ### Ejecutar el portfolio en local
 

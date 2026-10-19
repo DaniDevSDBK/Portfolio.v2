@@ -54,9 +54,11 @@ p, h1, h2, h3, h4 { margin-top: 0; }
 .logo { flex: 0 0 auto; font-size: 1.36rem; font-weight: 800; letter-spacing: -.07em; }
 .logo span { color: var(--lime); }
 .nav-links { display: flex; align-items: center; justify-content: center; gap: clamp(.65rem, 1.7vw, 1.45rem); margin: 0; padding: 0; list-style: none; }
-.nav-links a, .nav-cta { color: var(--muted); font-size: .78rem; font-weight: 600; }
+.nav-links a, .nav-cta, .language-switch { color: var(--muted); font-size: .78rem; font-weight: 600; }
 .nav-links a:hover, .nav-links a[aria-current="location"] { color: var(--lime); }
 .nav-cta { flex: 0 0 auto; padding: .55rem .8rem; border: 1px solid var(--line-dark); border-radius: .3rem; }
+.language-switch { flex: 0 0 auto; padding: .42rem .55rem; border: 1px solid var(--line-dark); border-radius: .25rem; font-size: .68rem; letter-spacing: .06em; }
+.language-switch:hover { border-color: var(--lime); color: var(--lime); }
 
 .section-wrap { padding-block: clamp(4.6rem, 9vw, 7.8rem); }
 .hero { position: relative; min-height: min(760px, calc(100svh - 74px)); display: flex; align-items: center; overflow: hidden; padding-block: clamp(4.5rem, 8vw, 7rem); background: radial-gradient(ellipse at 81% 44%, rgb(165 243 207 / 10%), transparent 30%), linear-gradient(135deg, #0c1113 12%, #111a1c 70%, #101617); }

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const contactForm = document.querySelector("#contact-form");
   if (contactForm) {
+    const isEnglish = document.documentElement.lang === "en";
     contactForm.addEventListener("submit", (event) => {
       event.preventDefault();
       if (!contactForm.reportValidity()) return;
@@ -9,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const name = String(formData.get("name") || "").trim();
       const email = String(formData.get("email") || "").trim();
       const message = String(formData.get("message") || "").trim();
-      const subject = encodeURIComponent("Contacto desde el portfolio de DaniDev");
-      const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\n${message}`);
+      const subject = encodeURIComponent(isEnglish ? "Contact from DaniDev's portfolio" : "Contacto desde el portfolio de DaniDev");
+      const body = encodeURIComponent(isEnglish ? `Name: ${name}\nEmail: ${email}\n\n${message}` : `Nombre: ${name}\nEmail: ${email}\n\n${message}`);
       window.location.href = `mailto:danidevsdbk@gmail.com?subject=${subject}&body=${body}`;
     });
   }
