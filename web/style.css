@@ -288,3 +288,48 @@ p, h1, h2, h3, h4 { margin-top: 0; }
 .production-divider > span { height: 1px; background: #9eaaa1; }
 .production-divider h3 { margin: 0; color: #30453a; font-size: clamp(.85rem, 1.5vw, 1.05rem); font-weight: 750; letter-spacing: -.02em; text-align: center; }
 @media (max-width: 680px) { .production-divider { grid-template-columns: 1fr; gap: .65rem; justify-items: center; } .production-divider > span { width: 100%; } }
+
+
+/* Featured product: first-hand product evidence near the top of the portfolio. */
+.featured-product.section-wrap { padding-block: clamp(3.5rem, 7vw, 6rem); }
+.featured-product-kicker { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; }
+.featured-product-kicker .eyebrow { margin: 0; }
+.product-status { display: inline-flex; align-items: center; gap: .45rem; color: #405a3b; font-size: .64rem; font-weight: 800; letter-spacing: .08em; }
+.product-status i { width: .48rem; height: .48rem; border-radius: 50%; background: #6a9a50; box-shadow: 0 0 0 .22rem rgb(106 154 80 / 14%); }
+.featured-product-grid { display: grid; grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr); gap: 1.4rem 2.5rem; align-items: stretch; }
+.featured-product-copy h2 { margin: 0 0 .55rem; color: #192a26; font-size: clamp(2.8rem, 5vw, 4.5rem); line-height: .98; letter-spacing: -.07em; }
+.featured-product-lede { max-width: 470px; margin: 0; color: #435752; font-size: 1.02rem; }
+.product-capabilities { display: grid; gap: .2rem; margin: 1.4rem 0 0; padding: 0; list-style: none; }
+.product-capabilities li { display: grid; gap: .1rem; padding: .68rem 0; border-top: 1px solid #aab5ac; }
+.product-capabilities strong { color: #22372c; font-size: .82rem; }
+.product-capabilities span { color: #50625d; font-size: .76rem; }
+.inventory-map { align-self: center; margin: 0; padding: 1rem 1rem .8rem; border: 1px solid #52634c; border-radius: .42rem; background: radial-gradient(ellipse at 50% 48%, #283634 0, #141d1e 70%); box-shadow: 0 16px 34px rgb(30 48 38 / 14%); }
+.inventory-map-heading { display: flex; justify-content: space-between; gap: .6rem; color: #aebb9b; font: 750 .58rem/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .08em; }
+.inventory-map svg { display: block; width: 100%; height: auto; margin-block: .35rem; }
+.inventory-map figcaption { color: #aab7b1; font-size: .65rem; line-height: 1.4; }
+.featured-product-contribution { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(230px, .9fr); grid-column: 1 / -1; align-items: center; gap: 1rem 2rem; padding: 1rem 0; border-block: 1px solid #aab5ac; }
+.contribution-label { color: #526f40; font-size: .63rem; font-weight: 850; letter-spacing: .1em; }
+.featured-product-contribution p { max-width: 690px; margin: .3rem 0 0; color: #42564c; font-size: .82rem; }
+.featured-product-actions { display: grid; justify-items: start; gap: .48rem; }
+.featured-product-actions .button { min-height: 42px; }
+.featured-product-actions > span { color: #50625a; font-size: .64rem; line-height: 1.4; }
+.featured-product-tags { display: flex; flex-wrap: wrap; grid-column: 1 / -1; gap: .42rem; }
+.featured-product-tags span { padding: .3rem .52rem; border: 1px solid #aab5ac; border-radius: 999px; color: #45584f; font-size: .65rem; font-weight: 650; }
+.proof-grid-compact { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 2rem; }
+.proof-grid-compact .proof-card { min-height: 145px; }
+@media (max-width: 760px) {
+  .featured-product-grid { grid-template-columns: 1fr; }
+  .inventory-map { width: 100%; }
+  .featured-product-contribution { grid-template-columns: 1fr; }
+  .featured-product-actions { margin-top: .2rem; }
+}
+@media (max-width: 520px) {
+  .featured-product-kicker { align-items: flex-start; flex-direction: column; }
+  .inventory-map { padding: .7rem; }
+  .inventory-map-heading { font-size: .5rem; }
+  .inventory-map figcaption { font-size: .58rem; }
+  .proof-grid-compact { grid-template-columns: 1fr; }
+  .proof-grid-compact .proof-card { min-height: 0; padding: .9rem 0; border-left: 0; border-bottom: 1px solid var(--line-light); }
+  .proof-grid-compact .proof-card:last-child { border-bottom: 0; }
+  .proof-grid-compact .proof-card h3 { margin-top: .65rem; }
+}
